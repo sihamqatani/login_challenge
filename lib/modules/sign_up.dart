@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class SignUp extends StatelessWidget {
@@ -89,7 +91,7 @@ class SignUp extends StatelessWidget {
                       fillColor: Colors.white,
                       filled: true,
                       prefixIcon: Icon(
-                        Icons.email_outlined, color: Colors.red[300], size: 12,
+                        Icons.email_outlined, color: Colors.red[300],
                         // color: Colors.white,
                       ),
                       focusColor: Colors.red[300],
@@ -191,6 +193,9 @@ class SignUp extends StatelessWidget {
                         print('Hello!');
                       })),
             ),
+            Row(
+              children: [Text('')],
+            )
           ],
         ),
       ),
