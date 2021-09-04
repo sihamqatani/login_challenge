@@ -35,184 +35,205 @@ class SignUp extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Container(
-                  decoration: BoxDecoration(boxShadow: [
-                    BoxShadow(
-                      color: Colors.deepOrange[100]!,
-                      blurRadius: 15,
-                      offset: const Offset(0, 5),
-                    )
-                  ]),
-                  child: TextFormField(
-                    keyboardType: TextInputType.name,
-                    onChanged: (value) {},
-                    onTap: () {},
-                    validator: (value) {},
-                    controller: nameController,
-                    decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        filled: true,
-                        prefixIcon: Icon(
-                          Icons.person_outline, color: Colors.red[300],
-                          // color: Colors.white,
-                        ),
-                        focusColor: Colors.red[300],
-                        border: OutlineInputBorder(
-                          // width: 0.0 produces a thin "hairline" border
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(90.0),
+                child: SizedBox(
+                  height: 50,
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(90),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.deepOrange[100]!,
+                            blurRadius: 3,
+                            offset: const Offset(0, 1),
+                          )
+                        ]),
+                    child: TextFormField(
+                      keyboardType: TextInputType.name,
+                      onChanged: (value) {},
+                      onTap: () {},
+                      validator: (value) {},
+                      controller: nameController,
+                      decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          filled: true,
+                          prefixIcon: Icon(
+                            Icons.person_outline, color: Colors.red[300],
+                            // color: Colors.white,
                           ),
-                          borderSide: BorderSide.none,
-                          //borderSide: const BorderSide(),
-                        ),
-                        hintText: 'name',
-                        hintStyle: TextStyle(color: Colors.red[200])),
+                          focusColor: Colors.red[300],
+                          border: OutlineInputBorder(
+                            // width: 0.0 produces a thin "hairline" border
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(90.0),
+                            ),
+                            borderSide: BorderSide.none,
+                            //borderSide: const BorderSide(),
+                          ),
+                          hintText: 'name',
+                          hintStyle: TextStyle(color: Colors.red[200])),
+                    ),
                   ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Container(
-                  decoration: BoxDecoration(boxShadow: [
-                    BoxShadow(
-                      color: Colors.deepOrange[100]!,
-                      blurRadius: 10,
-                      offset: const Offset(0, 5),
-                    )
-                  ]),
-                  child: TextFormField(
-                    keyboardType: TextInputType.emailAddress,
-                    onChanged: (value) {},
-                    onTap: () {},
-                    validator: (value) {},
-                    controller: emailController,
-                    decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        filled: true,
-                        prefixIcon: Icon(
-                          Icons.email_outlined, color: Colors.red[300],
-                          // color: Colors.white,
-                        ),
-                        focusColor: Colors.red[300],
-                        border: OutlineInputBorder(
-                          borderSide: BorderSide.none,
-                          //BorderSide(width: 1, color: Colors.deepOrange[50]!),*/
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(90.0),
+                child: SizedBox(
+                  height: 50,
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(90),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.deepOrange[100]!,
+                            blurRadius: 3,
+                            offset: const Offset(0, 1),
+                          )
+                        ]),
+                    child: TextFormField(
+                      keyboardType: TextInputType.emailAddress,
+                      onChanged: (value) {},
+                      onTap: () {},
+                      validator: (value) {},
+                      controller: emailController,
+                      decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          filled: true,
+                          prefixIcon: Icon(
+                            Icons.email_outlined, color: Colors.red[300],
+                            // color: Colors.white,
                           ),
-                        ),
-                        hintText: 'Siham@gmail.com',
-                        hintStyle: TextStyle(color: Colors.red[200])),
+                          focusColor: Colors.red[300],
+                          border: OutlineInputBorder(
+                            borderSide: BorderSide.none,
+                            //BorderSide(width: 1, color: Colors.deepOrange[50]!),*/
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(90.0),
+                            ),
+                          ),
+                          hintText: 'Siham@gmail.com',
+                          hintStyle: TextStyle(color: Colors.red[200])),
+                    ),
                   ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Container(
-                  decoration: BoxDecoration(boxShadow: [
-                    BoxShadow(
-                      color: Colors.deepOrange[100]!,
-                      blurRadius: 10,
-                      offset: const Offset(0, 5),
-                    )
-                  ]),
-                  child: TextFormField(
-                    keyboardType: TextInputType.visiblePassword,
-                    onChanged: (value) {},
-                    onTap: () {},
-                    validator: (value) {},
-                    controller: phoneController,
-                    decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        filled: true,
-                        prefixIcon: Icon(
-                          Icons.phone, color: Colors.red[300],
-                          // color: Colors.white,
-                        ),
-                        focusColor: Colors.red[300],
-                        border: OutlineInputBorder(
-                          borderSide: BorderSide.none,
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(90.0),
+                child: SizedBox(
+                  height: 50,
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(90),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.deepOrange[100]!,
+                            blurRadius: 3,
+                            offset: const Offset(0, 1),
+                          )
+                        ]),
+                    child: TextFormField(
+                      keyboardType: TextInputType.visiblePassword,
+                      onChanged: (value) {},
+                      onTap: () {},
+                      validator: (value) {},
+                      controller: phoneController,
+                      decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          filled: true,
+                          prefixIcon: Icon(
+                            Icons.phone, color: Colors.red[300],
+                            // color: Colors.white,
                           ),
-                        ),
-                        hintText: 'phone',
-                        hintStyle: TextStyle(color: Colors.red[200])),
+                          focusColor: Colors.red[300],
+                          border: OutlineInputBorder(
+                            borderSide: BorderSide.none,
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(90.0),
+                            ),
+                          ),
+                          hintText: 'phone',
+                          hintStyle: TextStyle(color: Colors.red[200])),
+                    ),
                   ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Container(
-                  decoration: BoxDecoration(boxShadow: [
-                    BoxShadow(
-                      color: Colors.deepOrange[100]!,
-                      blurRadius: 10,
-                      offset: const Offset(0, 5),
-                    )
-                  ]),
-                  child: TextFormField(
-                    keyboardType: TextInputType.visiblePassword,
-                    onChanged: (value) {},
-                    onTap: () {},
-                    validator: (value) {},
-                    controller: passwordController,
-                    decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        filled: true,
-                        prefixIcon: Icon(
-                          Icons.lock_outline, color: Colors.red[300],
-                          // color: Colors.white,
-                        ),
-                        focusColor: Colors.red[300],
-                        border: OutlineInputBorder(
-                          borderSide: BorderSide.none,
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(90.0),
+                child: SizedBox(
+                  height: 50,
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(90),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.deepOrange[100]!,
+                            blurRadius: 3,
+                            offset: const Offset(0, 1),
+                          )
+                        ]),
+                    child: TextFormField(
+                      keyboardType: TextInputType.visiblePassword,
+                      onChanged: (value) {},
+                      onTap: () {},
+                      validator: (value) {},
+                      controller: passwordController,
+                      decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          filled: true,
+                          prefixIcon: Icon(
+                            Icons.lock_outline, color: Colors.red[300],
+                            // color: Colors.white,
                           ),
-                        ),
-                        hintText: 'password',
-                        hintStyle: TextStyle(color: Colors.red[200])),
+                          focusColor: Colors.red[300],
+                          border: OutlineInputBorder(
+                            borderSide: BorderSide.none,
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(90.0),
+                            ),
+                          ),
+                          hintText: 'password',
+                          hintStyle: TextStyle(color: Colors.red[200])),
+                    ),
                   ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.all(10),
-                child: Container(
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(90),
-                      boxShadow: [
-                        BoxShadow(
-                          // spreadRadius: 1,
-                          color: Colors.deepOrange[100]!,
-                          blurRadius: 4,
-                          offset: const Offset(0, 2),
-                        )
-                      ]),
-                  child: TextFormField(
-                    keyboardType: TextInputType.visiblePassword,
-                    onChanged: (value) {},
-                    onTap: () {},
-                    validator: (value) {},
-                    controller: passwordController,
-                    decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        filled: true,
-                        prefixIcon: Icon(
-                          Icons.lock_open_outlined, color: Colors.red[300],
-                          // color: Colors.white,
-                        ),
-                        focusColor: Colors.red[300],
-                        border: OutlineInputBorder(
-                          borderSide: BorderSide.none,
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(90.0),
+                child: SizedBox(
+                  height: 50,
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(90),
+                        boxShadow: [
+                          BoxShadow(
+                            // spreadRadius: 1,
+                            color: Colors.deepOrange[100]!,
+                            blurRadius: 3,
+                            offset: const Offset(0, 1),
+                          )
+                        ]),
+                    child: TextFormField(
+                      keyboardType: TextInputType.visiblePassword,
+                      onChanged: (value) {},
+                      onTap: () {},
+                      validator: (value) {},
+                      controller: passwordController,
+                      decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          filled: true,
+                          prefixIcon: Icon(
+                            Icons.lock_open_outlined, color: Colors.red[300],
+                            // color: Colors.white,
                           ),
-                        ),
-                        hintText: 'confirm password',
-                        hintStyle: TextStyle(color: Colors.red[200])),
+                          focusColor: Colors.red[300],
+                          border: OutlineInputBorder(
+                            borderSide: BorderSide.none,
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(90.0),
+                            ),
+                          ),
+                          hintText: 'confirm password',
+                          hintStyle: TextStyle(color: Colors.red[200])),
+                    ),
                   ),
                 ),
               ),
