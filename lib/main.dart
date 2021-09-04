@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:login_challenge/modules/sign_up.dart';
 
-import 'layouts/login_screen.dart';
-
 void main() {
   runApp(MyApp());
 }
@@ -13,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         focusColor: Colors.red[300],
         primaryColor: Colors.red[300],
