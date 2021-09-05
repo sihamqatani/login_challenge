@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:login_challenge/modules/sign_up.dart';
+import 'package:login_challenge/modules/sign_up/sign_up.dart';
 
 void main() {
   runApp(MyApp());
