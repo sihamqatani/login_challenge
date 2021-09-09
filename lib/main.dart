@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:login_challenge/modules/sign_up/sign_up.dart';
+import 'package:login_challenge/modules/cart/cart_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
               statusBarIconBrightness: Brightness.dark,
             )),
       ),
-      home: SignUp(),
+      home: CartScreen(),
     );
   }
 }
