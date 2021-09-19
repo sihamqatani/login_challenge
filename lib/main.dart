@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:login_challenge/modules/cart/cart_screen.dart';
-import 'package:login_challenge/modules/history_order/history_order.dart';
+
+import 'modules/history_order/history_order.dart';
 
 void main() {
   runApp(MyApp());
